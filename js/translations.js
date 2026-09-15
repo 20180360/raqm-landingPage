@@ -85,7 +85,7 @@ var TRANSLATIONS = {
   "t85": "We offer strategic consulting that supports your decisions and helps you reach your goals.",
   "t86": "Follow-up & Improvement",
   "t87": "Regular performance reviews and results tracking to deliver ongoing recommendations for improvement.",
-  "t88": "With you every step of the way",
+  "t88": "With you every step",
   "t89": "Before go-live and after",
   "t90": "Book a demo",
   "t91": "Contact us",

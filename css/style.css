@@ -2190,7 +2190,7 @@ gap:12px;
    ========================================================================== */
 
 .raqm-showcase-header {
-  width: 100%;
+ 
 
   display: flex;
   flex-direction: column;
@@ -2198,15 +2198,14 @@ gap:12px;
 
   gap: 12px;
 
-  text-align: center;
   direction: rtl;
+      text-align: center;
+    max-width: 821px;
+    margin: 0 auto 44px
 }
 
 .raqm-showcase-header h2 {
-  width: 821px;
-  max-width: 100%;
 
-  margin: 0;
 
   color: #025b50;
 
@@ -2216,18 +2215,16 @@ gap:12px;
     sans-serif;
 
   font-size: 64px;
-  font-weight: 700;
+  font-weight: 800;
   line-height: normal;
 
-  white-space: nowrap;
+  
 }
 
 .raqm-showcase-header p {
-  width: 821px;
-  max-width: 100%;
+ 
 
-  margin: 0;
-
+ 
   color: #000;
 
   font-family:
@@ -5627,31 +5624,23 @@ gap:12px;
 }
 
 .roles-btn {
-  width: 261px;
-  height: 42px;
-
-  box-sizing: border-box;
-
-  padding: 8px 18px;
-
-  display: flex;
-  align-items: center;
-  justify-content: center;
-
-  gap: 8px;
-
-  background: #008483;
-
-  border-radius: 32px;
-
-  text-decoration: none;
-
-  font-family: "Almarai", sans-serif;
-  font-size: 14px;
-  line-height: 20px;
-  font-weight: 700;
-
-  color: #ffffff;
+  display: inline-flex;
+    align-items:center;
+    justify-content: center;
+    gap: 6px;
+    height: 42px;
+    padding: 8px 18px;
+    border-radius: 32px;
+    min-width: 196px;
+    font-family: Almarai, Cairo, sans-serif;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 14px;
+    white-space: nowrap;
+    transition: transform .15s ease, background .2s ease, box-shadow .2s ease;
+    border: 1px solid transparent;
+    background-color: #0baaa2;
+    color: #ffffff;
 }
 
 .roles-btn img {
